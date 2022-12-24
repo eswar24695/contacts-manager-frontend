@@ -1,0 +1,85 @@
+.header {
+    position: absolute;
+    width: 1180px;
+    height: 98px;
+    left: 256px;
+    top: 0px;
+    background: #FFFFFF;
+    border:2px solid #EAEAEA
+}
+.b{
+ font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 49px;
+color: black;
+margin-left: 20px;
+}
+.search_bar {
+    display: flex;
+    margin-top: -90px;
+    width: 50%;
+    align-self: center;
+    margin-left: auto;
+}
+input{
+    width: 40%;
+    padding: 5px;
+}
+.search_bar input {
+    background: white;
+    border-radius: 6px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid gray;
+    padding: 0.5em;
+    padding-left: 50px;
+}
+
+.search_bar input:focus {
+    outline: none !important;
+    border: 1px solid #0a89e4f0;
+}
+
+.search_bar input::placeholder {
+    padding-left: 0;
+    opacity: 0.7;
+}
+
+.search_bar {
+    position: relative;
+}
+
+.search_bar img {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 20px;
+    z-index:10;
+}
+.user-container {
+    display: flex;
+    align-items: center;
+}
+
+.user-image {
+    margin-left: 87%;
+    margin-top: -60px;
+}
+
+.user-details {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: -60px;
+    margin-left: 10px;
+}
+.user-type{
+    margin-top:-20px ;
+}
+.title{
+    
+}
